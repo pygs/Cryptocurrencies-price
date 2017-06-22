@@ -3,9 +3,6 @@ import requests
 import time
 import os
 
-urlETH = "https://bitbay.net/API/Public/ETHPLN/ticker.json"
-urlBTC = "https://bitbay.net/API/Public/BTCPLN/ticker.json"
-
 def print_info(name, url):
         response = requests.get(url=url)
         data = json.loads(response.text)
