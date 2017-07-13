@@ -42,13 +42,13 @@ if choice is 2:
                                 os.system("cls")
                         else:
                                 os.system("clear")
-                        print_info("ETH/PLN", "https://bitbay.net/API/Public/ETHUSD/ticker.json")
+                        print_info("ETH/USD", "https://bitbay.net/API/Public/ETHUSD/ticker.json")
                         print "============================================"
-                        print_info("BTC/PLN", "https://bitbay.net/API/Public/BTCUSD/ticker.json")
+                        print_info("BTC/USD", "https://bitbay.net/API/Public/BTCUSD/ticker.json")
                         print "============================================"
-                        print_info("LTC/PLN", "https://bitbay.net/API/Public/LTCUSD/ticker.json")
+                        print_info("LTC/USD", "https://bitbay.net/API/Public/LTCUSD/ticker.json")
                         print "============================================"
-                        print_info("LSK/PLN", "https://bitbay.net/API/Public/LSKUSD/ticker.json")
+                        print_info("LSK/USD", "https://bitbay.net/API/Public/LSKUSD/ticker.json")
                         time.sleep(4)
                 except:
                         print "See you later..."
@@ -60,13 +60,13 @@ if choice is 3:
                                 os.system("cls")
                         else:
                                 os.system("clear")
-                        print_info("ETH/PLN", "https://bitbay.net/API/Public/ETHEUR/ticker.json")
+                        print_info("ETH/EUR", "https://bitbay.net/API/Public/ETHEUR/ticker.json")
                         print "============================================"
-                        print_info("BTC/PLN", "https://bitbay.net/API/Public/BTCEUR/ticker.json")
+                        print_info("BTC/EUR", "https://bitbay.net/API/Public/BTCEUR/ticker.json")
                         print "============================================"
-                        print_info("LTC/PLN", "https://bitbay.net/API/Public/LTCEUR/ticker.json")
+                        print_info("LTC/EUR", "https://bitbay.net/API/Public/LTCEUR/ticker.json")
                         print "============================================"
-                        print_info("LSK/PLN", "https://bitbay.net/API/Public/LSKEUR/ticker.json")
+                        print_info("LSK/EUR", "https://bitbay.net/API/Public/LSKEUR/ticker.json")
                         time.sleep(4)
                 except:
                         print "See you later..."
@@ -78,11 +78,11 @@ if choice is 4:
                                 os.system("cls")
                         else:
                                 os.system("clear")
-                        print_info("ETH/PLN", "https://bitbay.net/API/Public/ETHBTC/ticker.json")
+                        print_info("ETH/BTC", "https://bitbay.net/API/Public/ETHBTC/ticker.json")
                         print "============================================"
-                        print_info("LTC/PLN", "https://bitbay.net/API/Public/LTCBTC/ticker.json")
+                        print_info("LTC/BTC", "https://bitbay.net/API/Public/LTCBTC/ticker.json")
                         print "============================================"
-                        print_info("LSK/PLN", "https://bitbay.net/API/Public/LSKBTC/ticker.json")
+                        print_info("LSK/BTC", "https://bitbay.net/API/Public/LSKBTC/ticker.json")
                         time.sleep(4)
                 except:
                         print "See you later..."
